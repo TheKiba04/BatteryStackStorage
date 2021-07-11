@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.container__inputBlock {
+  text-align: center;
+  color: beige;
+}
+#input,
+#add,
+#sub {
+  padding: 5px;
+}
+.container__queryBlock {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  height: 90%;
+  margin-top: 0.5em;
+  flex-direction: column-reverse;
+}
+
+.container__queryBlock_battery {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  border: 2px solid green;
+  padding: 2px;
+  flex-direction: column-reverse;
+  color: beige;
+}
+.container__queryBlock_battery > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  background: green;
+  margin: 0.5px;
+  padding: 0;
+  color: beige;
+}
+.container__queryBlock_addon {
+  width: 15%;
+  border: 2px solid green;
+  height: 2%;
+  background: green;
+}
